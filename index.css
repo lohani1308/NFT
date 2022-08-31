@@ -1,0 +1,130 @@
+/* 
+Challenge:
+1. Refactor the CSS to make it DRYer
+   by grouping selectors together where
+   possible.
+*/
+
+body{
+    font-size: 16px;
+    color: #2b283a;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/* typography */
+
+h1, h3{
+    margin: 0;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 36px;
+}
+
+h2{
+    margin-top: 0;
+}
+
+h3{
+    color: #d0aaff;
+    font-size: 20px;
+}
+
+/* links */
+
+a{
+    color: #ef5839;
+}
+
+a:hover, a:active{
+    color: #d4b44c;
+}
+
+/* layout */
+
+header, 
+section, 
+footer{
+    padding: 45px 0;
+}
+
+header{
+    background-color: #5f29a3;
+}
+
+.section-two{
+    color: whitesmoke;
+    background-color: #5f29a3;
+}
+
+.container{
+    width: 620px;
+    margin: 0 auto;
+}
+
+.main-image{
+    width:100%;
+}
+
+.section-two-image-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-image{
+    width: 300px;
+    border-radius: 4.6px;
+}
+ /* footer */
+footer{
+    text-align: center;
+    color: #5f29a3;
+}
+
+
+p{
+    line-height: 23px;
+}
+
+
+/*Button Link*/
+#buy--nft{
+    display: inline-block;
+    background-color: #5f29a3;
+    font-weight: 500;
+    width: 80px;
+    padding:10px 19px;
+    border-radius: 4.6px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin:10px 0;
+}
+
+#about,#contact,#more--info{
+    display: inline-block;
+    background-color: whitesmoke;
+    font-weight: 500;
+    width: 80px;
+    padding:10px 19px;
+    border-radius: 4.6px;
+    color: #5f29a3;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+#buy--nft:hover,
+#about:hover,
+#contact:hover,
+#more--info:hover{
+    background-color: #d4b44c;
+    color: black;
+}
+
+
+
+
+
+
+
